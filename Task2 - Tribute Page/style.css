@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.page1 {
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1 h1 { 
+    position: absolute;
+    top: 20%;
+}
+
+.page1 h2 { 
+    position: absolute;
+    top: 35%;
+}
+
+.page1 i {
+    position: absolute;
+    bottom: 20%;
+    font-size: 50px;
+}
+
+.page2 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+}
+
+.page2 img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 425px;
+}
+
+.page2 p {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 24px;
+    width: 28%;
+}
+
+.page3 {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.page3 h1 {
+    position: absolute;
+    top: 20%;
+}
+
+.page3 p {
+    position: absolute;
+    top: 30%;
+    width: 32%;
+    text-align: justify;
+}
+
+.line {
+    position: absolute;
+    bottom: 15%;
+    width: 600px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.page3 span {
+    position: absolute;
+    bottom: 7%;
+}
